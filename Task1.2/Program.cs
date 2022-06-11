@@ -11,7 +11,11 @@ if (number1>number2)
 {
     Console.WriteLine(number1 + ">" + number2);
 }
-else
-{
+else if (number1<number2)
+{   
     Console.WriteLine(number1 + "<" + number2);
+}
+else 
+{
+    Console.WriteLine(number1 + "=" + number2);
 }
